@@ -1,4 +1,4 @@
 node {
 stage ('checkout')
-   git([url: 'git@bitbucket.org:company/repo.git', branch: 'master'])
+   git([url: 'git@github.com:ashokmahato/pipelinerepo.git', branch: 'master'])
   }
